@@ -13,7 +13,7 @@ const GA_ID = require("../_data/googleanalytics.js")();
  * They are useful because I tend to break the things they test al the time.
  */
 
-describe("check build output for a generic post", () => {
+describe.skip("check build output for a generic post", () => {
   describe("sample post", () => {
     const POST_FILENAME = "_site/posts/firstpost/index.html";
     const URL = metadata.url;

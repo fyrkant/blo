@@ -4,7 +4,7 @@ const { JSDOM } = require("jsdom");
 const readFileSync = require("fs").readFileSync;
 const existsSync = require("fs").existsSync;
 
-describe("check build output for homepage", () => {
+describe.skip("check build output for homepage", () => {
   describe("homepage", () => {
     const FILENAME = "_site/index.html";
 

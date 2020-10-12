@@ -1,25 +1,25 @@
 {
-  "title": "Title of the website. Update me.",
-  "url": "https://update-me.com",
-  "domain": "update-me.com",
-  "description": "Description of the website. Update me.",
+  "title": "mattias.rocks",
+  "url": "https://mattias.rocks",
+  "domain": "mattias.rocks",
+  "description": "This is my blog.",
   "genre": "Insert a schema.org genre",
   "googleAnalyticsId": "GA ID. Update me",
   "feed": {
-    "subtitle": "Subtitle. Update me.",
+    "subtitle": "mattias.rocks",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://update-me.com"
+    "id": "https://mattias.rocks"
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
-    "url": "https://update-me.com/feed/feed.json"
+    "url": "https://mattias.rocks/feed/feed.json"
   },
   "author": {
-    "name": "Author Name. Update me.",
-    "twitterHandle": "update_me"
+    "name": "Mattias Wikström",
+    "twitterHandle": "bultbrada"
   },
   "publisher": {
-    "name": "Publisher name. Update me."
+    "name": "Mattias Wikström"
   }
 }
