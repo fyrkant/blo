@@ -1,6 +1,5 @@
 ---
 title: Floor to ceiling window
-# description: This is a post on My Blog about win-win survival strategies.
 date: 2020-10-12 22:50:52
 tags:
   - personal

@@ -187,7 +187,7 @@ if (window.ResizeObserver && document.querySelector("header nav #nav")) {
   new ResizeObserver(() => {
     bottom =
       document.scrollingElement.scrollTop +
-      document.querySelector("#comments,footer").getBoundingClientRect().top;
+      document.querySelector("#main-content").getBoundingClientRect().bottom;
     winHeight = window.innerHeight;
     scroll();
   }).observe(document.body);
