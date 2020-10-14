@@ -31,7 +31,6 @@ const csso = require("csso");
 
 /**
  * Inlines the CSS.
- * Makes font display display-swap
  * Minifies and optimizes the JS
  * Optimizes HTML
  * Optimizes AMP
@@ -49,9 +48,7 @@ const purifyCss = async (rawContent, outputPath) => {
       encoding: "utf-8",
     });
 
-    before = before.replace(/@font-face {/g, "@font-face {font-display:swap;");
-
-    const purged = await new PurgeCSS().purge({
+    const [purged] = await new PurgeCSS().purge({
       content: [
         {
           raw: rawContent,
@@ -73,7 +70,7 @@ const purifyCss = async (rawContent, outputPath) => {
       variables: true,
     });
 
-    const after = csso.minify(purged[0].css).css;
+    const after = csso.minify(purged.css).css;
     //console.log("CSS reduction", before.length - after.length);
 
     content = content.replace("</head>", `<style>${after}</style></head>`);

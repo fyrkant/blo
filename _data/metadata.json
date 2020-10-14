@@ -4,7 +4,6 @@
   "domain": "mattias.rocks",
   "description": "This is my blog.",
   "genre": "Insert a schema.org genre",
-  "googleAnalyticsId": "GA ID. Update me",
   "feed": {
     "subtitle": "mattias.rocks",
     "filename": "feed.xml",
