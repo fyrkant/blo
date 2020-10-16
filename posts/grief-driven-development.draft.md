@@ -11,4 +11,4 @@ My first introduction to web development was my brother showing me how to use so
 
 I have no idea why he had this knowledge, he really wasn’t that interested in computers from what I can remember. I have a vague memory of him having a computer nerd friend from school (was his name Christian? Yeah, I think his name was Christian) so maybe it was from him.
 
-After that small introduction I can’t really remember how it
+Everything is kind of blurry after that, I don’t remember if my brother kept teaching me — I don’t think so? — but I know in 2004 I had a blog.
