@@ -156,3 +156,7 @@ document.body.addEventListener(
   },
   /* capture */ "true"
 );
+
+import { initFuji } from "./fuji.js";
+const fujiCanvas = document.getElementById("fuji-canvas");
+if (fujiCanvas) initFuji(fujiCanvas);

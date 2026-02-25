@@ -1019,3 +1019,14 @@ a {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--primary);
 }
+
+#fuji-container {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0 2rem;
+}
+#fuji-canvas {
+  width: 280px;
+  height: 220px;
+  max-width: 100%;
+}
