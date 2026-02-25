@@ -205,6 +205,7 @@ module.exports = function (eleventyConfig) {
     },
     ui: false,
     ghostMode: false,
+    host: "0.0.0.0",
   });
 
   return {
